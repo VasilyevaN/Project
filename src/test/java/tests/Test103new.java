@@ -33,7 +33,7 @@ public class Test103new {
         Assert.assertEquals("Брест", driver.findElement(By.cssSelector(".DropDown__text.u-ellipsis")).getText());
     }
     @Test
-    public void TestTourism() {
+    public void TestTourism1() {
         driver.get("https://www.103.by/");
        driver.findElement(By.linkText("Журнал")).click();
         Assert.assertEquals("Журнал 103.by", driver.getTitle());
